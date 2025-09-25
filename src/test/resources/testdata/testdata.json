@@ -1,0 +1,64 @@
+{
+  "users": [
+    {
+      "username": "validuser1",
+      "password": "validpass1",
+      "email": "validuser1@example.com",
+      "valid": true
+    },
+    {
+      "username": "validuser2",
+      "password": "validpass2",
+      "email": "validuser2@example.com",
+      "valid": true
+    },
+    {
+      "username": "invaliduser1",
+      "password": "wrongpass",
+      "email": "invaliduser1@example.com",
+      "valid": false
+    },
+    {
+      "username": "invaliduser2",
+      "password": "invalidpass",
+      "email": "invaliduser2@example.com",
+      "valid": false
+    }
+  ],
+  "searchTerms": [
+    "technology",
+    "programming",
+    "automation",
+    "selenium",
+    "testing",
+    "java",
+    "cucumber",
+    "testng"
+  ],
+  "subreddits": [
+    "r/programming",
+    "r/technology",
+    "r/automation",
+    "r/selenium",
+    "r/java",
+    "r/testing",
+    "r/cucumber",
+    "r/testng"
+  ],
+  "testData": {
+    "validCredentials": {
+      "username": "testuser",
+      "password": "testpass"
+    },
+    "invalidCredentials": {
+      "username": "invaliduser",
+      "password": "invalidpass"
+    },
+    "searchQueries": [
+      "reddit automation",
+      "selenium testing",
+      "cucumber bdd",
+      "testng framework"
+    ]
+  }
+}

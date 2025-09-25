@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Reddit Automation Test Suite" parallel="tests" thread-count="2">
+    
+    <test name="Reddit Login Tests" preserve-order="true">
+        <classes>
+            <class name="com.reddit.automation.runners.RedditLoginTestRunner"/>
+        </classes>
+    </test>
+    
+    <test name="Reddit Home Page Tests" preserve-order="true">
+        <classes>
+            <class name="com.reddit.automation.runners.RedditTestRunner"/>
+        </classes>
+    </test>
+    
+    <test name="Reddit Smoke Tests" preserve-order="true">
+        <classes>
+            <class name="com.reddit.automation.runners.RedditTestRunner"/>
+        </classes>
+    </test>
+    
+</suite>
